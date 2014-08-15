@@ -35,6 +35,7 @@
     <njuke.njukeclient.ui.VoteButton
         android:id="@+id/voteup"
         android:background="@drawable/vote_button"
+        app:clickedBackground="@drawable/vote_button_clicked"
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true"
         android:layout_centerVertical="true"
