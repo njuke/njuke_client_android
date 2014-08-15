@@ -17,6 +17,9 @@ import njuke.njukeclient.ui.VoteButton;
 
 
 public class SongListActivity extends ListActivity {
+    /* Debug tag. */
+    @SuppressWarnings("UnusedDeclaration")
+    public static final String TAG = SongListActivity.class.getSimpleName();
 
     private String[] songNames = new String[]{"Never Gonna Give You Up", "Never Gonna Give You Up",
                                               "Never Gonna Give You Up", "Never Gonna Give You Up",

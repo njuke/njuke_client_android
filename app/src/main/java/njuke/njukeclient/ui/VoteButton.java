@@ -11,6 +11,8 @@ import njuke.njukeclient.R;
  * Created by erik on 13/08/14.
  */
 public class VoteButton extends Button {
+    /* Debug tag. */
+    @SuppressWarnings("UnusedDeclaration")
     public static final String TAG = VoteButton.class.getSimpleName();
     private boolean isClicked;
 
